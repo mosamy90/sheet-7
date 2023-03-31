@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-left: 3px #9969C7 solid; 
+           border-right: 3px #9969C7 solid;   
+          border-bottom:3px #9969C7 solid;
+          border-top:3px #9969C7 solid;
+        
+         padding:0px  50px;
+         width: 80%;
+         
+        }
+      td.a{
+           background-image: url(Screenshot\ 2023-03-31\ 034925.png ) ;
+          
+        }
+        .b{
+            width: 99%;
+        }
+        .m{
+            background-color: #682ea3;
+            width:85px; height: 20px;
+        }
+        .m:hover{
+            background-color:#a698ae ;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+    <table >
+      <tr >
+      <td class="a" colspan="2"><h3>  simple html contact form </h3> </td>
+       
+      </tr>
+      
+     <tr>
+        <td>name</td>
+       
+        <td > <input type="text" class="b"></td>
+     </tr>
+
+     <tr>
+        <td>password</td>
+        <td > <input type="password" class="b"></td>
+     </tr>
+
+     <tr>
+        <td>phone</td>
+        <td ><input type="text" placeholder="please enter a number only"class="b" > </td>
+     </tr>
+ 
+     <tr>
+        <td>gender</td>
+        <td >
+            <input type="radio"> male
+            <input type="radio" checked value="female" > female
+        </td>
+     </tr>
+
+     <tr>
+        <td>preference</td>
+        <td >
+            <input type="checkbox" checked value="morning"> morning
+            <input type="checkbox"> evening
+        </td>
+     </tr>
+ 
+     <tr>
+        <td >message</td>
+        <td>
+            <textarea placeholder="no more than 400 characters long" class="b" ></textarea>
+        </td>
+     </tr>
+   
+     <tr>
+        <td>service</td>
+        <td >
+           <select>
+            <option value="" selected>servace 1</option>
+           </select>
+        </td>
+     </tr>
+
+     <tr>
+        <td>date of birth</td>
+        <td > <input type="text" placeholder="04/06/2022" class="b" ></td>
+     </tr>
+
+     <tr>
+        <td>website</td>
+        <td ><input type="text" class="b"></td>
+     </tr>
+
+     <tr>
+        <td>upload file</td>
+        <td> <input type="file"></td>
+     </tr>
+
+
+     <tr>
+        <td></td>
+        <td><input type="reset" class="m">  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="submit" class="m"> </td>
+     </tr>
+    </table>
+</center>
+</body>
+</html>
